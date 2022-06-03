@@ -1,0 +1,92 @@
+@font-face {
+    font-family: inside-out;
+    src: url('font/inside-out-maisfontes.3332/inside-out.otf');
+}
+
+:root {
+    --cor_fundo:#000000;
+    --cor_parágrafo:#000000;
+    --cor_título: #228dff;
+    --fonte_principal: inside-out;
+    --fonte_tamanho: 20px;
+}
+
+body { 
+    font-family: var(--fonte_principal);
+    background-color: var(--cor_fundo);
+
+    width: 1140px;
+    max-width: 100%;
+
+    width: 100%;
+    
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: justify;
+    text-align: center; 
+}
+
+div.imagem {text-align: center; }
+
+h1 {
+    margin-top: 0;
+    position: relative;
+    background:#ffd41f;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#content {
+    transform: scale(1.0);
+    transform-origin: 0 0;
+}
+
+.personagem {
+    position: relative;
+    padding: 30px 20px;
+}
+
+.Alegria {
+    background:#ffd41f;
+}
+
+.Nojinho {
+    background: #8fd053;
+}
+
+.Tristeza {
+    background: #228dff;
+}
+
+.Medo {
+    background: #6c046a;
+}
+
+.Raiva {
+    background: #ff0f35;
+}
+
+body p {
+    color: var(--cor_parágrafo);
+    text-align: justify;
+    font-family: var(--fonte_principal);
+}
+
+h1 { 
+    color: var(--cor_título);
+    font-family: var(--fonte_principal);
+    font-size: 2cm;
+}
+
+img { 
+    width: 300px;
+    /* height: 300px; */
+}
+
+.center {
+    text-align: center;
+}
+
+iframe {
+    margin-bottom: 40px;
+}
